@@ -21,3 +21,25 @@ Contributors names and contact info
 * Rongrong Sun rs2157@georgetown.edu
 * Yiwen Wang   yw826@georgetown.edu
 * Yujing Wang yw790@georgetown.edu
+
+## Problem definition
+The lockdown and quarantine measures issued worldwide in response to the COVID-19 global pandemic have brought a series of impacts on daily life. Unfortunately, most of the effects of COVID-19 and the resulting lockdown have been shockingly negative - rising deaths, unemployment and the imminent global financial crisis are the most frequently reported problems around the world. 
+
+While COVID-19 has brought about many negative effects, it has also brought about some positive changes. For example, crime rates have decreased. From 1.10% (3.1 million) in 2019 to 0.93% (2.6 million) in 2020, the percentage of people aged 12 and older who are victims of violent crime has decreased by 15%. In addition, property crime declines from 7.37% (9.8 million) of households in 2016 to 6.19% (7.9 million) of households in 2020 (Morgan & Thompson, 2022).
+
+This has aroused our interest in crime research. In addition, from February to April 2022, there were several armed robberies in Georgetown community. Therefore, we want to analyze the crimes in the District of Columbia where we study and live in the past five years from 2017 to 2021.
+
+## Data extraction
+For this project, we use crime data for the city of Washington DC, which are available from 2017 onwards on the city’s open data portal. Crime data for city of Washington DC available from their open data portal at: https://opendata.dc.gov. To make analysis manageable, we utilized the data from 2017-2021. We downloaded the DC crime data for 5 years,  put them into a folder called “data”.
+
+Because we focus on property crime, after reading the data, we cleaned up the data. We split the time, month and year of the crime according to the original data. It not only lays the foundation for the following visualization, but also facilitates our prediction models.
+
+## Reference
+
+Dr. Qiusheng Wu, S., 2022. Using R for Crime Analysis. [online] Wetlands.io. Available at: <https://wetlands.io/maps/Crime-Analysis-Using-R.html#enhance_data_layer> [Accessed 6 May 2022].
+
+Morgan, R. and Thompson, A., 2022. Criminal Victimization, 2020. [online] Bureau of Justice Statistics. Available at: <https://bjs.ojp.gov/library/publications/criminal-victimization-2020> [Accessed 6 May 2022].
+
+Otexts.com. 2022. Chapter 3 Time series decomposition | Forecasting: Principles and Practice (3rd ed). [online] Available at: <https://otexts.com/fpp3/decomposition.html> [Accessed 6 May 2022].
+
+Rpubs.com. 2022. RPubs - Chicago Crime: A Time Series Analysis. [online] Available at: <https://rpubs.com/Arifyunan360/Chicago_Crime> [Accessed 6 May 2022].
